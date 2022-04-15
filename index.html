@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+       
+        <div>
+            <input type="text" id="user_inp">
+        </div>
+
+        <div class="btn-div">
+            <button class="grey AC" onclick="clearData()"  onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(235, 229, 229)'">AC</button>
+            <button class="grey" onclick="backspace()" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(235, 229, 229)'">C</button>
+            <button class="grey" onclick="getData('%')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(235, 229, 229)'">%</button>
+            <button class="grey" onclick="getData('/')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(235, 229, 229)'">&#247;</button>
+
+
+            <button class="white" onclick="getData('7')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">7</button>
+            <button class="white" onclick="getData('8')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">8</button>
+            <button class="white" onclick="getData('9')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">9</button>
+            <button class="grey" onclick="getData('*')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(235, 229, 229)'">x</button>
+
+
+            <button class="white" onclick="getData('4')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">4</button>
+            <button class="white" onclick="getData('5')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">5</button>
+            <button class="white" onclick="getData('6')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">6</button>
+            <button class="grey" onclick="getData('-')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(235, 229, 229)'">-</button>
+
+
+            <button class="white" onclick="getData('1')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background='rgb(246, 243, 243)'">1</button>
+            <button class="white" onclick="getData('2')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">2</button>
+            <button class="white" onclick="getData('3')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">3</button>
+            <button class="grey" onclick="getData('+')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(235, 229, 229)'">+</button>
+
+            <button class="white" onclick="getData('0')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">0</button>
+            <button class="white" onclick="getData('00')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(246, 243, 243)'">00</button>
+            <button class="grey" onclick="getData('.')" onfocus="this.style.background='linear-gradient(to right, #f38790, #f6ce97)'" onblur="this.style.background=' rgb(235, 229, 229)'">.</button>
+            <button class="equal" onclick="getResult()" >=</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

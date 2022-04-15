@@ -1,0 +1,58 @@
+body{
+    /* background-color: black; */
+    /* background: radial-gradient(circle, rgba(110,115,125,1) 0%, rgba(0,34,143,1) 100%); */
+    background: radial-gradient(circle, rgb(184, 86, 17) 0%, rgb(168, 30, 134)100%);
+
+    /* background: radial-gradient(circle, rgba(125,132,145,1) 0%, rgba(0,34,143,1) 100%); */
+}
+
+
+.btn-div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.main{
+    border:5px solid white;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    padding-top: 50px;
+    height: 333px;
+}
+.btn-div button{
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(83, 82, 82);
+}
+#user_inp{
+    width: 200px;
+    padding: 10px;
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: right;
+}
+.AC{
+    color: #f88791 !important;
+}
+.grey{
+    background-color: rgb(235, 229, 229);
+}
+.white{
+    background-color:rgb(246, 243, 243);
+}
+.equal{
+    /* background: linear-gradient(to right, #ff5f6d, #ffc371); */
+    background: linear-gradient(to right, #f38790, #f6ce97);
+} 
+
+#history{
+    float: right;
+    padding-right: 15px;
+    position: relative;
+    top: -20px;
+}
